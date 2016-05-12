@@ -1,0 +1,20 @@
+{
+  "name": "F7ReactComposite",
+  "version": "0.1a",
+  "description": "Base Framework 7 & ReactJS composite",
+  "main": "dist/index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinniegarcia/es6-module-starter.git"
+  },
+  "keywords": [
+    "F7ReactJS",
+    "ReactJSFramework7",
+    "F7ReactComposit"
+  ],
+  "author": "G.A. Alex",
+  "license": "MIT"
+}
