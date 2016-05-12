@@ -1,14 +1,15 @@
 {
-  "name": "F7ReactComposite",
-  "version": "0.1a",
+  "name": "f7react",
+  "version": "1.0.0",
   "description": "Base Framework 7 & ReactJS composite",
-  "main": "dist/index.js",
+  "main": "dist/core.js",
   "scripts": {
-
+    "compile": "babel --stage 0 -d dist/ src/",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vinniegarcia/es6-module-starter.git"
+    "url": "https://github.com/bumkaka/F7ReactComposit.git"
   },
   "keywords": [
     "F7ReactJS",
@@ -16,5 +17,9 @@
     "F7ReactComposit"
   ],
   "author": "G.A. Alex",
-  "license": "MIT"
+  "license": "MIT" ,
+  "devDependencies": {
+    "babel": "^5",
+    "babel-eslint": "^4.1.0"
+  }
 }
