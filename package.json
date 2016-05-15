@@ -19,7 +19,6 @@
   "author": "G.A. Alex",
   "license": "MIT" ,
   "devDependencies": {
-    "babel": "^5",
-    "babel-eslint": "^4.1.0"
+    "babel": "^5"
   }
 }
